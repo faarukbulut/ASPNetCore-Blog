@@ -1,0 +1,20 @@
+﻿@model CoreWeb.Controllers.Class1
+
+@{
+    ViewData["Title"] = "EditEmployee";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>ID</label>
+    @Html.TextBoxFor(x => x.ID, new { @class="form-control" })
+    <br />
+
+    <label>Ad Soyad</label>
+    @Html.TextBoxFor(x => x.Name, new { @class="form-control" })
+    <br />
+
+    <button class="btn btn-outline-success">Güncelle</button>
+
+</form>
+

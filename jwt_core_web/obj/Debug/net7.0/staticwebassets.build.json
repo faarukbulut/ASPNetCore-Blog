@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "u2jcR+xnMuj3ijEvXI77sH9XSS/StX04l0DVbZ7nMkI=",
+  "Source": "jwt_core_web",
+  "BasePath": "_content/jwt_core_web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

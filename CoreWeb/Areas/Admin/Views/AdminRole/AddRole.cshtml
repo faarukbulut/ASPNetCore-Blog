@@ -1,0 +1,19 @@
+﻿@using CoreWeb.Models
+@model RoleViewModel
+
+@{
+    ViewData["Title"] = "AddRole";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h1>Yeni Rol Ekle</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label>Rol Başlık</label>
+        <input type="text" name="name" class="form-control" />
+    </div>
+
+    <button class="btn btn-info">Ekle</button>
+
+</form>

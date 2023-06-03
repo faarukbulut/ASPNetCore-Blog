@@ -1,0 +1,29 @@
+﻿<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<div class="tech-btm">
+    <h4>Haber bültenine abone ol</h4>
+    <p>Teknoloji ve yazılıma dair her şey. </p>
+
+    <form method="post">
+        <input type="email" placeholder="E-Posta" required="" name="Mail" id="mail1">
+        <input type="submit" value="Abone Ol" id="btn1">
+    </form>
+
+</div>
+
+
+<script>
+    $('#btn1').click(function () {
+       let subdata = {
+           Mail: $("#mail1").val(),
+       };
+
+
+       $.ajax({
+           type:"post",
+           url:"/NewsLetter/SubscribeMail/",
+           data: subdata,
+       });
+
+    });
+</script>
